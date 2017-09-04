@@ -1,0 +1,95 @@
+.red {
+   color: red;
+}
+
+.black {
+	color: black;
+}
+
+.bold {
+   font-size:20px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.special {
+	text-decoration: bold;
+	color: red;
+}
+
+.center {
+	text-align: center;
+}
+
+.body {
+	font: sans-serif;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.table {
+	border-collapse: collapse;
+	width: 50%;
+	text-align: center;
+	float: left;
+	border: 0px;
+	width: 85%;	
+}
+
+.td {
+	text-align: left;
+	padding: 35px;
+}
+
+.th {
+	text-align: left;
+	padding: 15px;
+}
+
+.tr:nth-child(even) {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.mugshot {
+	background-image: url("bg.jpg");
+	text-align: center;
+	color: black;
+	display: block;
+    margin: auto;
+    width: 40%;
+	height: 40%;
+	}
+	
+.bio {
+	background-image: url("bg.jpg");
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+}
+
+.bg {
+	background-image: url("bg.jpg");
+	text-align: center;
+}
+
+.bg2 {
+	background-image: url("bg.jpg");
+	float: right;
+}
+
+.bg3 {
+	background-image: url("bg.jpg");
+	float: left;
+}
+
+.quote {
+	background-image: url("bg.jpg");
+	text-align: center;
+	
+}
